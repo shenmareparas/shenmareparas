@@ -12,7 +12,7 @@
   <a href="https://wa.me/918830620995">
     <img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/social/whatsapp.svg" alt="whatsapp" style="vertical-align:top; margin:6px 4px">
   </a>
-  <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=shenmarparas@gmail.com">
+  <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=shenmareparas@gmail.com">
     <img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/social/gmail.svg" alt="gmail" style="vertical-align:top; margin:6px 4px">
   </a>
 </p>
