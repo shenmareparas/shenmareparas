@@ -1,4 +1,8 @@
-# Hi There <img src="https://img.icons8.com/color/48/null/man-raising-hand-icon.png"/>
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+🙋‍♂️;This+is+Paras+Shenmare;Nice+to+meet+you!&center=true&size=30">
+  </a>
+</h1>
 
 # 🌐 Socials 🌐
 
