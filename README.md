@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Pacifico&size=30&pause=1000&color=FFFFFF&vCenter=true&width=435&lines=Hello%2C+There!+%F0%9F%91%8B;This+is+Paras+Shenmare;Nice+to+meet+you!)](https://git.io/typing-svg)
 
-# 🌐 Socials 🌐
+# Socials 🌐
 
 <p align="left">
   <a href="https://www.linkedin.com/in/parasshenmare">
@@ -29,7 +29,7 @@
   </a>
 </p>
 
-# 💻 Tech Stack 💻
+# Tech Stack 💻
 
 <p align = "left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" height = 45 width = 45/>
@@ -58,7 +58,7 @@
 </p>
 
 ---
-# 📊 GitHub Stats 📊
+# GitHub Stats 📊
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=shenmareparas&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats-five-rust-41.vercel.app/api?username=shenmareparas&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
