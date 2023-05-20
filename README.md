@@ -29,7 +29,7 @@
   </a>
 </p>
 
-# Tech Stack 💻
+# Tech Stack 🛠️
 
 <p align = "left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" height = 45 width = 45/>
@@ -66,4 +66,6 @@
 
 
 ---
-[![](https://visitcount.itsvg.in/api?id=shenmareparas&icon=0&color=0)](https://visitcount.itsvg.in)
+![](https://visitcount.itsvg.in/api?id=shenmareparas&icon=0&color=0)
+
+![](https://github-readme-activity-graph.cyclic.app/graph?username=shenmareparas&theme=react-dark)
