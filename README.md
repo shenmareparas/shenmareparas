@@ -69,3 +69,7 @@
 ![](https://visitcount.itsvg.in/api?id=shenmareparas&icon=0&color=12)
 
 ![](https://github-readme-activity-graph.cyclic.app/graph?username=shenmareparas&theme=react-dark)
+
+> “How many programmers does it take to change a light bulb? None, that’s a hardware problem.”
+> 
+> -Paras Shenmare
