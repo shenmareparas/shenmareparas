@@ -62,10 +62,10 @@
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=shenmareparas&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats-five-rust-41.vercel.app/api?username=shenmareparas&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=shenmareparas&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=shenmareparas&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=pie)
 
 
 ---
-![](https://visitcount.itsvg.in/api?id=shenmareparas&icon=0&color=0)
+![](https://visitcount.itsvg.in/api?id=shenmareparas&icon=0&color=12)
 
 ![](https://github-readme-activity-graph.cyclic.app/graph?username=shenmareparas&theme=react-dark)
