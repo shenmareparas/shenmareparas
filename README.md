@@ -7,27 +7,24 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="Linkedin" height = 45 width = 52/>
   </a>
   <a href="https://discord.gg/YKjrPUU3">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height = 45 width = 52/>
+    <img src="https://www.svgrepo.com/show/353655/discord-icon.svg" alt="Discord" height = 45 width = 52/>
   </a>
   <a href="https://www.instagram.com/paras_shenmare">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height = 45 width = 52/>
+    <img src="https://www.svgrepo.com/show/452229/instagram-1.svg" alt="Instagram" height = 45 width = 52/>
   </a>
   <a href="https://twitter.com/paras_shenmare">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="Twitter" height = 45 width = 52/>
+    <img src="https://www.svgrepo.com/show/475689/twitter-color.svg" alt="Twitter" height = 45 width = 52/>
   </a>
   <a href="https://www.youtube.com/@parasshenmare">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height = 45 width = 52/>
+    <img src="https://www.svgrepo.com/show/475700/youtube-color.svg" alt="YouTube" height = 45 width = 52/>
   </a>
-</div>
-
-<p align="left">
   <a href="https://wa.me/918830620995">
-    <img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/social/whatsapp.svg" alt="whatsapp" style="vertical-align:top; margin:6px 4px">
+    <img src="https://www.svgrepo.com/show/475692/whatsapp-color.svg" alt="WhatsApp" height = 45 width = 52/>
   </a>
   <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=shenmareparas@gmail.com">
-    <img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/social/gmail.svg" alt="Gmail" style="vertical-align:top; margin:6px 4px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" height = 45 width = 52/>
   </a>
-</p>
+</div>
 
 # Tech Stack 🛠️
 
