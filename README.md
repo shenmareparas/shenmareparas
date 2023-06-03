@@ -21,6 +21,9 @@
   <a href="https://wa.me/918830620995">
     <img src="https://www.svgrepo.com/show/475692/whatsapp-color.svg" alt="WhatsApp" height = 45 width = 52/>
   </a>
+  <a href="https://t.me/parasshenmare">
+    <img src="https://www.svgrepo.com/show/354443/telegram.svg" alt="Telegram" height = 45 width = 52/>
+  </a>
   <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=shenmareparas@gmail.com">
     <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" height = 45 width = 52/>
   </a>
