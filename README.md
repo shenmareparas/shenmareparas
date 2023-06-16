@@ -55,6 +55,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" alt="Slack" height = 45 width = 52/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" height = 45 width = 45/>
   <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="Stack Overflow" height = 45 width = 52/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" alt="Markdown" height = 45 width = 45/>
+  <img src="https://www.svgrepo.com/show/361653/vercel-logo.svg" alt="Vercel" height = 45 width = 45/>
 </div>
 
 ---
