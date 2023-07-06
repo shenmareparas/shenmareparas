@@ -6,9 +6,6 @@
   <a href="https://www.linkedin.com/in/parasshenmare" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" title="Linkedin" alt="Linkedin" height = 45 width = 52/>
   </a>
-  <a href="https://discord.gg/YKjrPUU3" target="_blank" rel="noopener noreferrer">
-    <img src="https://www.svgrepo.com/show/353655/discord-icon.svg" title="Discord" alt="Discord" height = 45 width = 52/>
-  </a>
   <a href="https://www.instagram.com/paras_shenmare" target="_blank" rel="noopener noreferrer">
     <img src="https://www.svgrepo.com/show/452229/instagram-1.svg" title="Instagram" alt="Instagram" height = 45 width = 52/>
   </a>
@@ -46,6 +43,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" title="Jupyter" alt="Jupyter" height = 45 width = 52/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" title="C" alt="C" height = 45 width = 52/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" height = 45 width = 52/>
+  <img src="https://www.svgrepo.com/show/303206/javascript-logo.svg" title="JavaScript" alt="JavaScript" height = 45 width = 52/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" height = 45 width = 52/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS" alt="CSS" height = 45 width = 52/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" title="VS Code" alt="VS Code" height = 45 width = 52/>
