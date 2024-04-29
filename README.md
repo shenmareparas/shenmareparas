@@ -34,8 +34,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" height = 45 width = 52/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" title="Firebase"alt="Firebase" height = 45 width = 52/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" title="Android" alt="Android" height = 45 width = 52/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" title="Gradle" alt="Gradle" height = 45 width = 52/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" title="iOS" alt="iOS" height = 45 width = 52/>
+  <img src="https://www.svgrepo.com/show/353831/gradle.svg" title="Gradle" alt="Gradle" height = 45 width = 52/>
+  <img src="https://www.svgrepo.com/show/452233/ios.svg" title="iOS" alt="iOS" height = 45 width = 52/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java" alt="Java" height = 45 width = 52/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" title="Django" alt="Django" height="40" width="52"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" alt="Python" height = 45 width = 52/>
@@ -68,7 +68,7 @@
 ---
 ![](https://visitcount.itsvg.in/api?id=shenmareparas&icon=0&color=12)
 
-![](https://github-readme-activity-graph.vercel.app/graph?username=shenmareparas&theme=react-dark)
+[//]:#![](https://github-readme-activity-graph.vercel.app/graph?username=shenmareparas&theme=react-dark)
 
 > “How many programmers does it take to change a light bulb? None, that’s a hardware problem.”
 > 
