@@ -4,35 +4,15 @@
 
 </div>
 
-## About Me 🚀
+## About Me
 
 I'm **Paras Shenmare**, a passionate developer interested in building mobile apps, web applications, and exploring new technologies.
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/parasshenmare" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" title="LinkedIn" alt="LinkedIn" height="40" width="40"/>
-  </a>
-  <a href="https://www.instagram.com/paras_shenmare" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.simpleicons.org/instagram/E4405F" title="Instagram" alt="Instagram" height="40" width="40"/>
-  </a>
-  <a href="https://twitter.com/parasshenmare" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.simpleicons.org/x/000000" title="X (Twitter)" alt="X (Twitter)" height="40" width="40"/>
-  </a>
-  <a href="https://www.youtube.com/@parasshenmare" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.simpleicons.org/youtube/FF0000" title="YouTube" alt="YouTube" height="40" width="40"/>
-  </a>
-  <a href="https://wa.me/918830620995" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.simpleicons.org/whatsapp/25D366" title="WhatsApp" alt="WhatsApp" height="40" width="40"/>
-  </a>
-  <a href="https://t.me/parasshenmare" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.simpleicons.org/telegram/26A5E4" title="Telegram" alt="Telegram" height="40" width="40"/>
-  </a>
-  <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=shenmareparas@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.simpleicons.org/gmail/EA4335" title="Gmail" alt="Gmail" height="40" width="40"/>
-  </a>
+  <a href="https://www.linkedin.com/in/parasshenmare" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" title="LinkedIn" alt="LinkedIn" height="40" width="40"/></a>&nbsp;<a href="https://www.instagram.com/paras_shenmare" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/instagram/E4405F" title="Instagram" alt="Instagram" height="40" width="40"/></a>&nbsp;<a href="https://twitter.com/parasshenmare" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/x/000000" title="X (Twitter)" alt="X (Twitter)" height="40" width="40"/></a>&nbsp;<a href="https://www.youtube.com/@parasshenmare" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/youtube/FF0000" title="YouTube" alt="YouTube" height="40" width="40"/></a>&nbsp;<a href="https://wa.me/918830620995" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/whatsapp/25D366" title="WhatsApp" alt="WhatsApp" height="40" width="40"/></a>&nbsp;<a href="https://t.me/parasshenmare" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/telegram/26A5E4" title="Telegram" alt="Telegram" height="40" width="40"/></a>&nbsp;<a href="https://mail.google.com/mail/?view=cm&source=mailto&to=shenmareparas@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/gmail/EA4335" title="Gmail" alt="Gmail" height="40" width="40"/></a>
 </div>
 
-## Tech Stack 🛠️
+## Tech Stack
 
 ### Languages
 
@@ -53,17 +33,10 @@ I'm **Paras Shenmare**, a passionate developer interested in building mobile app
 ### Tools & Platforms
 
 <div align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,firebase,windows,apple,linux,vscode,androidstudio,pycharm,gradle,vercel,figma,stackoverflow" />
-  </a>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="48" width="48" alt="Android" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="48" width="48" alt="Jupyter" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="48" width="48" alt="Slack" />
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,firebase,windows,apple,linux,vscode,androidstudio,pycharm,gradle,vercel,figma,stackoverflow" /></a>&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="48" width="48" alt="Android" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="48" width="48" alt="Jupyter" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="48" width="48" alt="Slack" />
 </div>
 
----
-
-## GitHub Stats 📊
+## GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=shenmareparas&theme=dark&hide_border=false" alt="Streak Stats" />
