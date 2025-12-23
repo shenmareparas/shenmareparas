@@ -17,23 +17,19 @@ I'm **Paras Shenmare**, a passionate developer interested in building mobile app
 ### Languages
 
 <div align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,c,cpp,dart,js,html,css,md" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,dart,js,html,css,md" />
 </div>
 
 ### Frameworks & Libraries
 
 <div align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flutter,django,mui" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flutter,django,mui" />
 </div>
 
 ### Tools & Platforms
 
 <div align="left">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,firebase,windows,apple,linux,vscode,androidstudio,pycharm,gradle,vercel,figma,stackoverflow" /></a>&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="48" width="48" alt="Android" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="48" width="48" alt="Jupyter" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="48" width="48" alt="Slack" />
+  <img src="https://skillicons.dev/icons?i=git,firebase,windows,apple,linux,vscode,androidstudio,pycharm,gradle,vercel,figma,stackoverflow" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="48" width="48" alt="Android" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="48" width="48" alt="Jupyter" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="48" width="48" alt="Slack" />
 </div>
 
 ## GitHub Stats
