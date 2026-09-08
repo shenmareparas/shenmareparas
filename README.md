@@ -1,8 +1,6 @@
 <div align="center">
   <!-- Banner Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0369a1,100:38bdf8&height=220&section=header&text=Paras%20Shenmare&fontSize=46&fontAlignY=36&desc=Software%20Developer%20%E2%80%A2%20Mobile%20and%20Full%20Stack%20Engineer&descSize=17&descAlignY=58&fontColor=ffffff&animation=false" width="100%" alt="Header Banner" />
-
-  <br/><br/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0369a1,100:38bdf8&height=210&section=header&text=Paras%20Shenmare&fontSize=46&fontAlignY=30&desc=Software%20Developer%20%E2%80%A2%20Mobile%20and%20Full%20Stack%20Engineer&descSize=16&descAlignY=48&fontColor=ffffff&animation=false" width="100%" alt="Header Banner" />
 
   <!-- Quick Presence Badges -->
   <a href="https://shenmareparas.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfolio-shenmareparas.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
