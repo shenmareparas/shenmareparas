@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Banner Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,70:0369a1,100:38bdf8&height=220&section=header&text=Paras%20Shenmare&fontSize=46&fontAlignY=36&desc=Software%20Developer%20%E2%80%A2%20Mobile%20%26%20Full%20Stack%20Engineer&descSize=17&descAlignY=58&fontColor=ffffff" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,100:38bdf8&height=220&section=header&text=Paras%20Shenmare&fontSize=46&fontAlignY=36&desc=Software%20Developer%20%E2%80%A2%20Mobile%20%26%20Full%20Stack%20Engineer&descSize=17&descAlignY=58&fontColor=ffffff&animation=false" width="100%" alt="Header Banner" />
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://shenmareparas.vercel.app">
@@ -10,21 +10,10 @@
   <br/><br/>
 
   <!-- Quick Presence Badges -->
-  <a href="https://shenmareparas.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-shenmareparas.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/shenmareparas" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Paras_Shenmare-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:shenmareparas@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-shenmareparas%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://twitter.com/parasshenmare" target="_blank">
-    <img src="https://img.shields.io/badge/X_(Twitter)-%40parasshenmare-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
-  </a>
+  <a href="https://shenmareparas.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfolio-shenmareparas.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/shenmareparas" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Paras_Shenmare-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:shenmareparas@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-shenmareparas%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://twitter.com/parasshenmare" target="_blank"><img src="https://img.shields.io/badge/X_(Twitter)-%40parasshenmare-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" /></a>
 
 </div>
 
@@ -119,20 +108,12 @@ I am a passionate **Software Developer** dedicated to crafting intuitive, perfor
 Whether you're looking to build an ambitious mobile application, optimize web performance, or discuss innovative ideas—feel free to reach out!
 
 <p align="center">
-  <a href="https://shenmareparas.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Explore-Portfolio%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/shenmareparas" target="_blank">
-    <img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:shenmareparas@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Send-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <a href="https://shenmareparas.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Explore-Portfolio%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/shenmareparas" target="_blank"><img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:shenmareparas@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Send-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <!-- Footer Banner Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,70:0369a1,100:38bdf8&height=110&section=footer" width="100%" alt="Footer Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,100:38bdf8&height=110&section=footer" width="100%" alt="Footer Banner" />
 
 </div>
