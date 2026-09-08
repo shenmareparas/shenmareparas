@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Banner Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,100:38bdf8&height=220&section=header&text=Paras%20Shenmare&fontSize=46&fontAlignY=36&desc=Software%20Developer%20%E2%80%A2%20Mobile%20%26%20Full%20Stack%20Engineer&descSize=17&descAlignY=58&fontColor=ffffff&animation=false" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,100:38bdf8&height=220&section=header&text=Paras%20Shenmare&fontSize=46&fontAlignY=36&desc=Software%20Developer%20%E2%80%A2%20Mobile%20and%20Full%20Stack%20Engineer&descSize=17&descAlignY=58&fontColor=ffffff&animation=false" width="100%" alt="Header Banner" />
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://shenmareparas.vercel.app">
@@ -43,7 +43,7 @@ I am a passionate **Software Developer** dedicated to crafting intuitive, perfor
 | **📱 Mobile & Native** | **Flutter**, **Dart**, **Android**, **iOS**, **Swift**, **SwiftUI**, **Kotlin**, **Flame Engine** |
 | **🌐 Web & Frontend** | **Next.js 16**, **React 19**, **TypeScript**, **JavaScript**, **Tailwind CSS v4**, **HTML5**, **CSS3**, **Framer Motion** |
 | **⚙️ Backend & BaaS** | **Node.js**, **Express**, **Firebase**, **Supabase**, **RESTful APIs** |
-| **🧰 Tools & Platforms** | **Git**, **GitHub**, **Android Studio**, **Xcode**, **VS Code**, **Postman**, **Figma**, **Vercel**, **Bun** |
+| **🧰 Tools & Platforms** | **Antigravity**, **Git**, **GitHub**, **Android Studio**, **Xcode**, **VS Code**, **Postman**, **Figma**, **Vercel**, **Bun** |
 
 <br/>
 
