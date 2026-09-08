@@ -1,10 +1,10 @@
 <div align="center">
   <!-- Banner Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,100:38bdf8&height=220&section=header&text=Paras%20Shenmare&fontSize=46&fontAlignY=36&desc=Software%20Developer%20%E2%80%A2%20Mobile%20and%20Full%20Stack%20Engineer&descSize=17&descAlignY=58&fontColor=ffffff&animation=false" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0369a1,100:38bdf8&height=220&section=header&text=Paras%20Shenmare&fontSize=46&fontAlignY=36&desc=Software%20Developer%20%E2%80%A2%20Mobile%20and%20Full%20Stack%20Engineer&descSize=17&descAlignY=58&fontColor=ffffff&animation=false" width="100%" alt="Header Banner" />
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://shenmareparas.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Software+Developer+%F0%9F%92%BB;Flutter+%7C+Android+%7C+iOS+Specialist+%F0%9F%93%B1;Next.js+16+%26+React+19+Engineer+%E2%9A%A1;Crafting+Fluid+UIs+%26+Mobile+Architectures+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Software+Developer+%F0%9F%92%BB;Flutter+%7C+Android+%7C+iOS+Specialist+%F0%9F%93%B1;Next.js+16+%26+React+19+Engineer+%E2%9A%A1;Crafting+Fluid+UIs+%26+Mobile+Architectures+%E2%9C%A8" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -114,6 +114,6 @@ Whether you're looking to build an ambitious mobile application, optimize web pe
 </p>
 
 <!-- Footer Banner Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,100:38bdf8&height=110&section=footer" width="100%" alt="Footer Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0369a1,100:38bdf8&height=110&section=footer" width="100%" alt="Footer Banner" />
 
 </div>
