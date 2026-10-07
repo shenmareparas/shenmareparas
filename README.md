@@ -6,7 +6,7 @@
   <a href="https://shenmareparas.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfolio-shenmareparas.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/shenmareparas" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Paras_Shenmare-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:shenmareparas@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-shenmareparas%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://twitter.com/parasshenmare" target="_blank"><img src="https://img.shields.io/badge/X_(Twitter)-%40parasshenmare-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" /></a>
+  <a href="https://twitter.com/parasshenmare" target="_blank"><img src="https://img.shields.io/badge/Twitter-%40parasshenmare-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" /></a>
 
 </div>
 
@@ -56,11 +56,11 @@ I am a passionate **Software Developer** dedicated to crafting intuitive, perfor
 
 | Project | Description | Tech Stack | Links |
 | :--- | :--- | :--- | :--- |
-| ♟️ **Chess Engine & Game** | Feature-rich multiplayer and singleplayer chess game with custom piece animations, move validation, and board state management. | `Flutter` `Dart` `Flame Engine` | [GitHub (⭐ 32)](https://github.com/shenmareparas/Chess) |
-| ⚡ **Portfolio Web App** | Modern high-performance portfolio featuring 3D Coverflow carousel, vertical lightbox strip with gesture pan/zoom, mobile haptics, and a certified 100/100 React Doctor score. | `Next.js 16` `React 19` `Tailwind v4` `TypeScript` | [🌐 Visit Site](https://shenmareparas.vercel.app) • [Source Code](https://github.com/shenmareparas/Portfolio_NextJS) |
+| ♟️ **Chess Engine & Game** | Feature rich 2-player and singleplayer chess app with custom piece animations, move validation, and native Stockfish engine integration. | `Flutter` `Dart` `Flame Engine` | [GitHub (⭐ 32)](https://github.com/shenmareparas/Chess) |
+| ⚡ **Portfolio Web App** | Modern high-performance portfolio featuring 3D Coverflow carousel, gesture-driven lightbox, mobile haptics, and a certified 100/100 React Doctor score. | `Next.js 16` `React 19` `Tailwind v4` `TypeScript` | [🌐 Visit Site](https://shenmareparas.vercel.app) • [Source Code](https://github.com/shenmareparas/Portfolio_NextJS) |
 | 🖥️ **Live Wallpaper Engine** | Native macOS dynamic desktop & lock screen wallpaper engine with hardware-accelerated HEVC playback and gapless looping. | `Swift` `SwiftUI` `macOS` `AppKit` | [Source Code](https://github.com/shenmareparas/live-wallpaper) |
-| 👓 **Apple Vision Pro UI** | Spatial computing visionOS-inspired UI concept exploring depth perception, glassmorphism, and spatial layering. | `Flutter` `Dart` `UI/UX` | [Source Code](https://github.com/shenmareparas/Apple_Vision_Pro_UI) |
-| 🩺 **YoDoc Telemedicine** | Virtual doctor consultation app allowing users to describe symptoms and conveniently obtain medical prescriptions. | `Flutter` `Dart` `Firebase` | [Source Code](https://github.com/shenmareparas/YoDoc) |
+| 🍽️ **VIT Bhopal Mess** | Real-time mess & canteen food guide for university students with automated time-based meal tracking, price calculation, and quick search. | `Flutter` `Dart` `JavaScript` `REST APIs` | [🌐 Web Demo](https://vitbmessdemo.vercel.app) • [Source Code](https://github.com/shenmareparas/VIT_Bhopal_Mess) |
+| 💳 **Expense Tracker** | Modern personal finance and split-bill app featuring 6 split modes, real-time analytics with fl_chart, Supabase Auth/DB, and PDF statement exports. | `Flutter` `Dart` `Supabase` `Provider` | [Source Code](https://github.com/shenmareparas/expense_tracker) |
 
 </div>
 
