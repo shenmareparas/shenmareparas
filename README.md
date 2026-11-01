@@ -1,4 +1,6 @@
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 768px)" srcset="assets/hero-dark-mobile.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 768px)" srcset="assets/hero-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
   <img alt="Paras Shenmare — Mobile, web & creative systems." src="assets/hero-dark.svg" width="100%">
@@ -28,6 +30,8 @@ Focused on fluid gesture physics, resilient client-side state machines, and clea
 | **<a href="https://github.com/shenmareparas/nexu5-music-bot" target="_blank" rel="noopener noreferrer">nexu5-music-bot ↗</a>** | High-performance Discord music bot featuring low-latency voice streaming, queue management, and rich audio playback. | Bun · Discord.js · yt-dlp |
 
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 768px)" srcset="assets/activity-dark-mobile.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 768px)" srcset="assets/activity-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg">
   <img alt="A look at my work — public GitHub activity" src="assets/activity-dark.svg" width="100%">

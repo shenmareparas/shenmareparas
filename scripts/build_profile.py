@@ -152,9 +152,9 @@ def line(x1, y1, x2, y2, cls='draw-line', extra=''):
     return f'<path d="{d}" class="{cls}"{extra_str}/>'
 
 
-def svg(body, theme, height, title, desc, defs=''):
+def svg(body, theme, height, title, desc, defs='', width=1200):
     t = THEMES[theme]
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 {height}" width="1200" height="{height}" role="img" aria-labelledby="title desc">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img" aria-labelledby="title desc">
 <title id="title">{escape(title)}</title><desc id="desc">{escape(desc)}</desc>
 <defs>{defs}</defs>
 <style>
@@ -177,7 +177,7 @@ text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, A
 @keyframes cellArrive {{from {{opacity:0;transform:translateY(4px)}} to {{opacity:1;transform:translateY(0)}}}}
 @media (prefers-reduced-motion:reduce) {{.fade-up,.fade-in,.card-enter,.draw-line,.cursor,.sweep,.cell-reveal {{animation:none!important;opacity:1!important;transform:none!important;stroke-dashoffset:0!important}}}}
 </style>
-<rect x=".5" y=".5" width="1199" height="{height - 1}" rx="12" fill="{t['bg']}" stroke="{t['line']}"/>
+<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="12" fill="{t['bg']}" stroke="{t['line']}"/>
 {body}
 </svg>\n'''
 
@@ -238,6 +238,56 @@ def hero(theme):
     
     return svg(b, theme, 440, 'Paras Shenmare — Mobile, web & creative systems.',
                'Minimalist developer console showing client architecture spec, engineering principles, and core pillars.')
+
+
+def hero_mobile(theme):
+    t = THEMES[theme]
+
+    # Staggered typography (stacked top)
+    b = text(36, 68, 'Paras', 58, 'fg fade-up', 'font-weight="700" letter-spacing="-3" style="animation-delay:.08s"')
+    b += text(36, 130, 'Shenmare.', 58, 'fg fade-up', 'font-weight="700" letter-spacing="-3" style="animation-delay:.18s"')
+    b += text(38, 168, 'Mobile, web & creative systems.', 17, 'blue fade-up', 'letter-spacing="-.3" style="animation-delay:.30s"')
+    b += text(38, 198, 'Flutter · Next.js · Swift', 13.5, 'muted mono fade-up', 'style="animation-delay:.40s"')
+
+    # Minimal Developer Console (full width underneath)
+    px, py, pw, ph = 36, 226, 528, 320
+    b += f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="14" fill="{t["panel"]}" stroke="{t["line"]}" stroke-width="1" class="card-enter" style="animation-delay:.12s"/>'
+
+    # Console Top Bar
+    b += f'<circle cx="{px + 18}" cy="{py + 18}" r="3.5" fill="#ff5f56" class="fade-in" style="animation-delay:.24s"/>'
+    b += f'<circle cx="{px + 30}" cy="{py + 18}" r="3.5" fill="#ffbd2e" class="fade-in" style="animation-delay:.30s"/>'
+    b += f'<circle cx="{px + 42}" cy="{py + 18}" r="3.5" fill="#27c93f" class="fade-in" style="animation-delay:.36s"/>'
+    b += text(px + 60, py + 22, 'client.config.ts', 11, 'muted mono fade-in', 'font-weight="500" style="animation-delay:.40s"')
+    b += f'<path d="M{px} {py + 36}H{px + pw}" pathLength="1" class="draw-line" style="animation-delay:.36s"/>'
+
+    # Code Content with Syntax Highlighting
+    cy = py + 36
+    b += f'<text x="{px + 18}" y="{cy + 32}" class="mono fade-up" font-size="11.5" style="animation-delay:.46s"><tspan fill="{t["accent"]}">export const</tspan> <tspan fill="{t["fg"]}">client</tspan> <tspan fill="{t["muted"]}">=</tspan> <tspan fill="{t["muted"]}">{{</tspan></text>'
+    b += f'<text x="{px + 30}" y="{cy + 58}" class="mono fade-up" font-size="11.5" style="animation-delay:.54s"><tspan fill="{t["blue"]}">focus:</tspan>    <tspan fill="{t["fg"]}">"Mobile, web &amp; creative systems"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 30}" y="{cy + 84}" class="mono fade-up" font-size="11.5" style="animation-delay:.62s"><tspan fill="{t["blue"]}">pattern:</tspan>  <tspan fill="{t["fg"]}">"MVVM · Reactive Streams · Clean Code"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 30}" y="{cy + 110}" class="mono fade-up" font-size="11.5" style="animation-delay:.70s"><tspan fill="{t["blue"]}">platform:</tspan> <tspan fill="{t["fg"]}">"iOS · Android · Modern Web · macOS"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 30}" y="{cy + 136}" class="mono fade-up" font-size="11.5" style="animation-delay:.78s"><tspan fill="{t["blue"]}">status:</tspan>   <tspan fill="{t["gold"]}">"Available for collaboration"</tspan><tspan fill="{t["gold"]}" class="cursor">|</tspan></text>'
+    b += f'<text x="{px + 18}" y="{cy + 162}" class="mono fade-up" font-size="11.5" style="animation-delay:.86s"><tspan fill="{t["muted"]}">}};</tspan></text>'
+
+    # Panel Footer: 3 Clean Pillars
+    fy = py + ph - 68
+    b += f'<path d="M{px} {fy}H{px + pw}" pathLength="1" class="draw-line" style="animation-delay:.88s"/>'
+    col_w = pw / 3
+    b += f'<g class="fade-up" style="animation-delay:.94s">'
+    b += text(px + 18, fy + 24, 'MOBILE', 9.5, 'muted mono', 'font-weight="600"')
+    b += text(px + 18, fy + 44, 'Flutter & Dart', 12.5, 'fg', 'font-weight="600"')
+    b += '</g>'
+    b += f'<g class="fade-up" style="animation-delay:1.02s">'
+    b += text(px + col_w + 10, fy + 24, 'WEB', 9.5, 'muted mono', 'font-weight="600"')
+    b += text(px + col_w + 10, fy + 44, 'Next.js & React', 12.5, 'fg', 'font-weight="600"')
+    b += '</g>'
+    b += f'<g class="fade-up" style="animation-delay:1.10s">'
+    b += text(px + col_w * 2 + 10, fy + 24, 'SYSTEMS', 9.5, 'muted mono', 'font-weight="600"')
+    b += text(px + col_w * 2 + 10, fy + 44, 'macOS & Swift', 12.5, 'fg', 'font-weight="600"')
+    b += '</g>'
+
+    return svg(b, theme, 580, 'Paras Shenmare — Mobile, web & creative systems.',
+               'Mobile developer console showing client architecture spec, engineering principles, and core pillars.', width=600)
 
 
 # ---------------------------------------------------------------- activity
@@ -339,6 +389,126 @@ def activity(snapshot, theme):
     return svg(b, theme, height_total, 'A look at my work — public GitHub activity', desc, defs)
 
 
+def activity_mobile(snapshot, theme):
+    t = THEMES[theme]
+    days = snapshot['days']
+    total = sum(d['count'] for d in days)
+    active = sum(d['count'] > 0 for d in days)
+    streak = longest_streak(days)
+    stars = snapshot.get('total_stars', 61)
+    commits = snapshot.get('total_commits', 1070)
+    busiest = max(days, key=lambda d: d['count'])
+    last = date.fromisoformat(days[-1]['date'])
+
+    # Focus on recent 26 weeks for mobile legibility
+    n_weeks = 26
+    start_target = last - timedelta(weeks=n_weeks - 1)
+    sunday = start_target - timedelta(days=(start_target.weekday() + 1) % 7)
+    day_map = {d['date']: d for d in days}
+    mobile_days = [day_map[k] for k in day_map if date.fromisoformat(k) >= sunday]
+    mobile_days.sort(key=lambda d: d['date'])
+
+    x0, x1, top = 48, 564, 308
+    pitch = (x1 - x0) / n_weeks
+    cell = min(15.5, pitch - 3.8)
+    grid_bottom = top + 6 * pitch + cell
+
+    # Header
+    b = text(36, 46, 'A look at my work.', 24, 'fg fade-up', 'font-weight="600" letter-spacing="-.6" style="animation-delay:.08s"')
+    b += text(36, 68, 'One year of daily iterations, code reviews, and releases.', 12, 'muted fade-up', 'style="animation-delay:.16s"')
+    b += line(36, 84, 564, 84, 'draw-line', 'pathLength="1" style="animation-delay:.22s"')
+
+    # 2-Row Stats Grid
+    # Row 1 (y=116, label y=134)
+    b += text(36, 116, f'{commits:,}', 28, 'blue fade-up', 'font-weight="600" letter-spacing="-1" style="animation-delay:.26s"')
+    b += text(36, 134, 'Total commits', 11, 'muted fade-up', 'style="animation-delay:.26s"')
+
+    b += text(226, 116, f'{stars:,}', 28, 'gold fade-up', 'font-weight="600" letter-spacing="-1" style="animation-delay:.32s"')
+    b += text(226, 134, 'Stars earned', 11, 'muted fade-up', 'style="animation-delay:.32s"')
+
+    b += text(406, 116, f'{total:,}', 24, 'fg fade-up', 'font-weight="600" letter-spacing="-1" style="animation-delay:.38s"')
+    b += text(406, 134, 'Contributions (yr)', 11, 'muted fade-up', 'style="animation-delay:.38s"')
+
+    # Row 2 (y=168, label y=186)
+    b += text(36, 168, f'{active}', 20, 'fg fade-up', 'font-weight="600" letter-spacing="-1" style="animation-delay:.42s"')
+    b += text(36, 186, 'Active days (yr)', 11, 'muted fade-up', 'style="animation-delay:.42s"')
+
+    b += text(226, 168, f'{streak}d', 20, 'fg fade-up', 'font-weight="600" letter-spacing="-1" style="animation-delay:.46s"')
+    b += text(226, 186, 'Best streak (yr)', 11, 'muted fade-up', 'style="animation-delay:.46s"')
+
+    b += text(406, 168, f'{busiest["count"]}', 20, 'fg fade-up', 'font-weight="600" letter-spacing="-1" style="animation-delay:.50s"')
+    b += text(406, 186, 'Peak day', 11, 'muted fade-up', 'style="animation-delay:.50s"')
+
+    b += line(36, 204, 564, 204, 'draw-line', 'pathLength="1" style="animation-delay:.54s"')
+
+    # Weekly Sparkline
+    weeks = [0] * n_weeks
+    for d in mobile_days:
+        idx = ((date.fromisoformat(d['date']) - sunday).days) // 7
+        if 0 <= idx < n_weeks:
+            weeks[idx] += d['count']
+    peak = max(weeks) or 1
+    peak_i = weeks.index(max(weeks))
+    base, height = 264, 34
+    pts = [(x0 + i * pitch + cell / 2, base - n / peak * height) for i, n in enumerate(weeks)]
+    path = 'M' + ' L'.join(f'{x:.2f} {y:.2f}' for x, y in pts)
+    area = f'{path} L{pts[-1][0]:.2f} {base} L{pts[0][0]:.2f} {base} Z'
+    b += line(x0, base, x1, base, 'draw-line', 'pathLength="1" style="animation-delay:.58s"')
+    b += f'<path d="{area}" fill="url(#fade)" class="fade-in" style="animation-delay:.62s"/>'
+    b += f'<path d="{path}" pathLength="1" class="sweep" style="animation-delay:.58s"/>'
+    px, py = pts[peak_i]
+    b += f'<circle cx="{px:.2f}" cy="{py:.2f}" r="3" fill="{t["accent"]}" stroke="{t["bg"]}" stroke-width="2" class="fade-in" style="animation-delay:.76s"/>'
+    anchor_x = min(max(px, x0 + 60), x1 - 60)
+    b += text(f'{anchor_x:.2f}', f'{py - 9:.2f}', f'Peak week: {peak:,}', 11, 'muted fade-in', 'text-anchor="middle" style="animation-delay:.76s"')
+    b += text(36, 238, 'Recent 26 weeks', 11, 'muted fade-in', 'style="animation-delay:.58s"')
+
+    # Month Labels
+    previous = -99
+    for i in range(n_weeks):
+        start = sunday + timedelta(weeks=i)
+        if start.day <= 7 and i - previous > 2 and i < n_weeks - 1:
+            m_delay = f'{.58 + (i / n_weeks) * .20:.2f}s'
+            b += text(f'{x0 + i * pitch:.2f}', top - 10, start.strftime('%b'), 11, 'muted fade-in', f'style="animation-delay:{m_delay}"')
+            previous = i
+    for row, name in ((1, 'Mon'), (3, 'Wed'), (5, 'Fri')):
+        d_delay = f'{.60 + row * .04:.2f}s'
+        b += text(22, f'{top + row * pitch + cell / 2 + 4:.2f}', name, 10.5, 'muted fade-in', f'style="animation-delay:{d_delay}"')
+
+    # Grid Cells
+    for d in mobile_days:
+        day = date.fromisoformat(d['date'])
+        col, row = divmod((day - sunday).days, 7)
+        if 0 <= col < n_weeks:
+            x, y = x0 + col * pitch, top + row * pitch
+            ring = f' stroke="{t["accent"]}" stroke-width="1.5"' if d is busiest and d['count'] else ''
+            tip = f'{pretty(day)}: {plural(d["count"], "contribution")}'
+            c_delay = f'{.56 + col * .014 + row * .018:.3f}s'
+            b += (f'<rect x="{x:.2f}" y="{y:.2f}" width="{cell:.2f}" height="{cell:.2f}" rx="3" '
+                  f'fill="{t["ramp"][d["level"]]}"{ring} class="cell-reveal" '
+                  f'style="animation-delay:{c_delay}"><title>{escape(tip)}</title></rect>')
+
+    fy = grid_bottom + 30
+    b += line(36, fy - 20, 564, fy - 20, 'draw-line', 'pathLength="1" style="animation-delay:.86s"')
+    first_mobile_day = date.fromisoformat(mobile_days[0]['date'])
+    b += text(36, fy, f'{pretty(first_mobile_day)} to {pretty(last)}', 11, 'muted fade-in', 'style="animation-delay:.92s"')
+    b += f'<g class="fade-in" style="animation-delay:.96s">'
+    b += text(564, fy, 'More', 11, 'muted', 'text-anchor="end"')
+    for i, color in enumerate(t['ramp']):
+        b += f'<rect x="{564 - 38 - (5 - i) * 14:.0f}" y="{fy - 9}" width="10" height="10" rx="2" fill="{color}"/>'
+    b += text(564 - 38 - 5 * 14 - 6, fy, 'Less', 11, 'muted', 'text-anchor="end"')
+    b += '</g>'
+
+    height_total = int(fy + 24)
+    defs = (f'<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">'
+            f'<stop offset="0" stop-color="{t["accent"]}" stop-opacity=".28"/>'
+            f'<stop offset="1" stop-color="{t["accent"]}" stop-opacity="0"/></linearGradient>')
+    desc = (f'{total:,} contributions across {active} active days, {stars} stars earned, and {commits:,} commits. '
+            f'Longest streak {streak} days. Busiest day {pretty(date.fromisoformat(busiest["date"]))} '
+            f'with {busiest["count"]}. Recent 26 weeks drawn with weekly totals. '
+            f'Snapshot {snapshot["snapshot_date"]}.')
+    return svg(b, theme, height_total, 'A look at my work — public GitHub activity', desc, defs, width=600)
+
+
 # ---------------------------------------------------------------- main
 
 def main():
@@ -363,7 +533,9 @@ def main():
     output = {}
     for theme in THEMES:
         output[f'hero-{theme}.svg'] = hero(theme)
+        output[f'hero-{theme}-mobile.svg'] = hero_mobile(theme)
         output[f'activity-{theme}.svg'] = activity(snapshot, theme)
+        output[f'activity-{theme}-mobile.svg'] = activity_mobile(snapshot, theme)
 
     (ROOT / 'assets').mkdir(exist_ok=True)
     target.parent.mkdir(exist_ok=True)
