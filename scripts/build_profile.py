@@ -206,38 +206,20 @@ def hero(theme):
     
     # Code Content with Syntax Highlighting (staggered cascade)
     cy = py + 40
-    b += f'<text x="{px + 24}" y="{cy + 42}" class="mono fade-up" font-size="11.5" style="animation-delay:.52s"><tspan fill="{t["accent"]}">export const</tspan> <tspan fill="{t["fg"]}">client</tspan> <tspan fill="{t["muted"]}">=</tspan> <tspan fill="{t["muted"]}">{{</tspan></text>'
-    b += f'<text x="{px + 40}" y="{cy + 70}" class="mono fade-up" font-size="11.5" style="animation-delay:.62s"><tspan fill="{t["blue"]}">focus:</tspan>    <tspan fill="{t["fg"]}">"Mobile, web &amp; creative systems"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
-    b += f'<text x="{px + 40}" y="{cy + 98}" class="mono fade-up" font-size="11.5" style="animation-delay:.72s"><tspan fill="{t["blue"]}">pattern:</tspan>  <tspan fill="{t["fg"]}">"MVVM · Reactive Streams · Clean Code"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
-    b += f'<text x="{px + 40}" y="{cy + 126}" class="mono fade-up" font-size="11.5" style="animation-delay:.82s"><tspan fill="{t["blue"]}">platform:</tspan> <tspan fill="{t["fg"]}">"iOS · Android · Modern Web · macOS"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
-    b += f'<text x="{px + 40}" y="{cy + 154}" class="mono fade-up" font-size="11.5" style="animation-delay:.92s"><tspan fill="{t["blue"]}">status:</tspan>   <tspan fill="{t["gold"]}">"Available for collaboration"</tspan><tspan fill="{t["gold"]}" class="cursor">|</tspan></text>'
-    b += f'<text x="{px + 24}" y="{cy + 182}" class="mono fade-up" font-size="11.5" style="animation-delay:1.02s"><tspan fill="{t["muted"]}">}};</tspan></text>'
-    
-    # Panel Footer: 3 Clean Pillars (Mobile, Web, Systems)
-    fy = py + ph - 74
-    b += f'<path d="M{px} {fy}H{px + pw}" pathLength="1" class="draw-line" style="animation-delay:.95s"/>'
-    
-    col_w = pw / 3
-    # Pillar 1: Mobile
-    b += f'<g class="fade-up" style="animation-delay:1.08s">'
-    b += text(px + 24, fy + 26, 'MOBILE', 10, 'muted mono', 'font-weight="600"')
-    b += text(px + 24, fy + 48, 'Flutter & Dart', 13, 'fg', 'font-weight="600"')
-    b += '</g>'
-    
-    # Pillar 2: Web
-    b += f'<g class="fade-up" style="animation-delay:1.18s">'
-    b += text(px + col_w + 12, fy + 26, 'WEB', 10, 'muted mono', 'font-weight="600"')
-    b += text(px + col_w + 12, fy + 48, 'Next.js & React', 13, 'fg', 'font-weight="600"')
-    b += '</g>'
-    
-    # Pillar 3: Systems
-    b += f'<g class="fade-up" style="animation-delay:1.28s">'
-    b += text(px + col_w * 2 + 12, fy + 26, 'SYSTEMS', 10, 'muted mono', 'font-weight="600"')
-    b += text(px + col_w * 2 + 12, fy + 48, 'macOS & Swift', 13, 'fg', 'font-weight="600"')
-    b += '</g>'
-    
+    b += f'<text x="{px + 24}" y="{cy + 30}" class="mono fade-up" font-size="11.5" style="animation-delay:.48s"><tspan fill="{t["accent"]}">export const</tspan> <tspan fill="{t["fg"]}">client</tspan> <tspan fill="{t["muted"]}">=</tspan> <tspan fill="{t["muted"]}">{{</tspan></text>'
+    b += f'<text x="{px + 40}" y="{cy + 54}" class="mono fade-up" font-size="11.5" style="animation-delay:.54s"><tspan fill="{t["blue"]}">pattern:</tspan>    <tspan fill="{t["fg"]}">"MVVM · Reactive Streams · Clean Code"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 40}" y="{cy + 78}" class="mono fade-up" font-size="11.5" style="animation-delay:.60s"><tspan fill="{t["blue"]}">craft:</tspan>      <tspan fill="{t["fg"]}">"Fluid Interactions · State Machines"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 40}" y="{cy + 102}" class="mono fade-up" font-size="11.5" style="animation-delay:.66s"><tspan fill="{t["blue"]}">tooling:</tspan>    <tspan fill="{t["fg"]}">"TypeScript · Bun · Flame · Supabase"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 40}" y="{cy + 126}" class="mono fade-up" font-size="11.5" style="animation-delay:.72s"><tspan fill="{t["blue"]}">principles:</tspan> <tspan fill="{t["muted"]}">[</tspan></text>'
+    b += f'<text x="{px + 56}" y="{cy + 150}" class="mono fade-up" font-size="11.5" style="animation-delay:.78s"><tspan fill="{t["fg"]}">"Zero-bloat architecture"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 56}" y="{cy + 174}" class="mono fade-up" font-size="11.5" style="animation-delay:.84s"><tspan fill="{t["fg"]}">"Strict compile-time safety"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 56}" y="{cy + 198}" class="mono fade-up" font-size="11.5" style="animation-delay:.90s"><tspan fill="{t["fg"]}">"Low-latency responsiveness"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 40}" y="{cy + 222}" class="mono fade-up" font-size="11.5" style="animation-delay:.96s"><tspan fill="{t["muted"]}">],</tspan></text>'
+    b += f'<text x="{px + 40}" y="{cy + 246}" class="mono fade-up" font-size="11.5" style="animation-delay:1.02s"><tspan fill="{t["blue"]}">status:</tspan>     <tspan fill="{t["gold"]}">"Available for collaboration"</tspan><tspan fill="{t["gold"]}" class="cursor">|</tspan></text>'
+    b += f'<text x="{px + 24}" y="{cy + 270}" class="mono fade-up" font-size="11.5" style="animation-delay:1.08s"><tspan fill="{t["muted"]}">}};</tspan></text>'
+
     return svg(b, theme, 440, 'Paras Shenmare — Mobile, web & creative systems.',
-               'Minimalist developer console showing client architecture spec, engineering principles, and core pillars.')
+               'Minimalist developer console showing client architecture spec, engineering stack, and principles.')
 
 
 def hero_mobile(theme):
@@ -262,32 +244,20 @@ def hero_mobile(theme):
 
     # Code Content with Syntax Highlighting
     cy = py + 36
-    b += f'<text x="{px + 18}" y="{cy + 32}" class="mono fade-up" font-size="11.5" style="animation-delay:.46s"><tspan fill="{t["accent"]}">export const</tspan> <tspan fill="{t["fg"]}">client</tspan> <tspan fill="{t["muted"]}">=</tspan> <tspan fill="{t["muted"]}">{{</tspan></text>'
-    b += f'<text x="{px + 30}" y="{cy + 58}" class="mono fade-up" font-size="11.5" style="animation-delay:.54s"><tspan fill="{t["blue"]}">focus:</tspan>    <tspan fill="{t["fg"]}">"Mobile, web &amp; creative systems"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
-    b += f'<text x="{px + 30}" y="{cy + 84}" class="mono fade-up" font-size="11.5" style="animation-delay:.62s"><tspan fill="{t["blue"]}">pattern:</tspan>  <tspan fill="{t["fg"]}">"MVVM · Reactive Streams · Clean Code"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
-    b += f'<text x="{px + 30}" y="{cy + 110}" class="mono fade-up" font-size="11.5" style="animation-delay:.70s"><tspan fill="{t["blue"]}">platform:</tspan> <tspan fill="{t["fg"]}">"iOS · Android · Modern Web · macOS"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
-    b += f'<text x="{px + 30}" y="{cy + 136}" class="mono fade-up" font-size="11.5" style="animation-delay:.78s"><tspan fill="{t["blue"]}">status:</tspan>   <tspan fill="{t["gold"]}">"Available for collaboration"</tspan><tspan fill="{t["gold"]}" class="cursor">|</tspan></text>'
-    b += f'<text x="{px + 18}" y="{cy + 162}" class="mono fade-up" font-size="11.5" style="animation-delay:.86s"><tspan fill="{t["muted"]}">}};</tspan></text>'
-
-    # Panel Footer: 3 Clean Pillars
-    fy = py + ph - 68
-    b += f'<path d="M{px} {fy}H{px + pw}" pathLength="1" class="draw-line" style="animation-delay:.88s"/>'
-    col_w = pw / 3
-    b += f'<g class="fade-up" style="animation-delay:.94s">'
-    b += text(px + 18, fy + 24, 'MOBILE', 9.5, 'muted mono', 'font-weight="600"')
-    b += text(px + 18, fy + 44, 'Flutter & Dart', 12.5, 'fg', 'font-weight="600"')
-    b += '</g>'
-    b += f'<g class="fade-up" style="animation-delay:1.02s">'
-    b += text(px + col_w + 10, fy + 24, 'WEB', 9.5, 'muted mono', 'font-weight="600"')
-    b += text(px + col_w + 10, fy + 44, 'Next.js & React', 12.5, 'fg', 'font-weight="600"')
-    b += '</g>'
-    b += f'<g class="fade-up" style="animation-delay:1.10s">'
-    b += text(px + col_w * 2 + 10, fy + 24, 'SYSTEMS', 9.5, 'muted mono', 'font-weight="600"')
-    b += text(px + col_w * 2 + 10, fy + 44, 'macOS & Swift', 12.5, 'fg', 'font-weight="600"')
-    b += '</g>'
+    b += f'<text x="{px + 18}" y="{cy + 28}" class="mono fade-up" font-size="11.5" style="animation-delay:.44s"><tspan fill="{t["accent"]}">export const</tspan> <tspan fill="{t["fg"]}">client</tspan> <tspan fill="{t["muted"]}">=</tspan> <tspan fill="{t["muted"]}">{{</tspan></text>'
+    b += f'<text x="{px + 30}" y="{cy + 51}" class="mono fade-up" font-size="11.5" style="animation-delay:.50s"><tspan fill="{t["blue"]}">pattern:</tspan>    <tspan fill="{t["fg"]}">"MVVM · Reactive Streams · Clean Code"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 30}" y="{cy + 74}" class="mono fade-up" font-size="11.5" style="animation-delay:.56s"><tspan fill="{t["blue"]}">craft:</tspan>      <tspan fill="{t["fg"]}">"Fluid Interactions · State Machines"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 30}" y="{cy + 97}" class="mono fade-up" font-size="11.5" style="animation-delay:.62s"><tspan fill="{t["blue"]}">tooling:</tspan>    <tspan fill="{t["fg"]}">"TypeScript · Bun · Flame · Supabase"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 30}" y="{cy + 120}" class="mono fade-up" font-size="11.5" style="animation-delay:.68s"><tspan fill="{t["blue"]}">principles:</tspan> <tspan fill="{t["muted"]}">[</tspan></text>'
+    b += f'<text x="{px + 42}" y="{cy + 143}" class="mono fade-up" font-size="11.5" style="animation-delay:.74s"><tspan fill="{t["fg"]}">"Zero-bloat architecture"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 42}" y="{cy + 166}" class="mono fade-up" font-size="11.5" style="animation-delay:.80s"><tspan fill="{t["fg"]}">"Strict compile-time safety"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 42}" y="{cy + 189}" class="mono fade-up" font-size="11.5" style="animation-delay:.86s"><tspan fill="{t["fg"]}">"Low-latency responsiveness"</tspan><tspan fill="{t["muted"]}">,</tspan></text>'
+    b += f'<text x="{px + 30}" y="{cy + 212}" class="mono fade-up" font-size="11.5" style="animation-delay:.92s"><tspan fill="{t["muted"]}">],</tspan></text>'
+    b += f'<text x="{px + 30}" y="{cy + 235}" class="mono fade-up" font-size="11.5" style="animation-delay:.98s"><tspan fill="{t["blue"]}">status:</tspan>     <tspan fill="{t["gold"]}">"Available for collaboration"</tspan><tspan fill="{t["gold"]}" class="cursor">|</tspan></text>'
+    b += f'<text x="{px + 18}" y="{cy + 258}" class="mono fade-up" font-size="11.5" style="animation-delay:1.04s"><tspan fill="{t["muted"]}">}};</tspan></text>'
 
     return svg(b, theme, 580, 'Paras Shenmare — Mobile, web & creative systems.',
-               'Mobile developer console showing client architecture spec, engineering principles, and core pillars.', width=600)
+               'Mobile developer console showing client architecture spec, engineering stack, and principles.', width=600)
 
 
 # ---------------------------------------------------------------- activity
