@@ -13,7 +13,7 @@
   <a href="https://github.com/shenmareparas?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories ↗</a>
 </p>
 
-Software developer specializing in mobile architecture, modern web engineering, and system-level applications. I design responsive cross-platform apps with Flutter and Dart, craft high-performance web applications with Next.js and React, and build native desktop utilities with Swift.
+Software developer specialising in mobile architecture, modern web engineering, and system-level applications. I design responsive cross-platform apps with Flutter and Dart, craft high-performance web applications with Next.js and React, and build native desktop utilities with Swift.
 
 Focused on fluid gesture physics, resilient client-side state machines, and clean systems programming.
 
@@ -26,7 +26,7 @@ Focused on fluid gesture physics, resilient client-side state machines, and clea
 | **<a href="https://github.com/shenmareparas/live-wallpaper" target="_blank" rel="noopener noreferrer">Live Wallpaper ↗</a>**   | Native macOS dynamic wallpaper engine with hardware-accelerated HEVC playback and gapless looping.                      | Swift · SwiftUI · AppKit           |
 | **<a href="https://github.com/shenmareparas/VIT_Bhopal_Mess" target="_blank" rel="noopener noreferrer">VIT Bhopal Mess ↗</a>** | Real-time university mess guide with automated meal schedules, menu pricing, and fast food lookup.                      | Flutter · Dart · REST APIs         |
 | **<a href="https://github.com/shenmareparas/expense_tracker" target="_blank" rel="noopener noreferrer">Expense Tracker ↗</a>** | Modern personal finance and split-bill app featuring 6 split modes, real-time analytics with fl_chart, and PDF exports. | Flutter · Dart · Supabase          |
-| **<a href="https://github.com/shenmareparas/CodeLens-AI" target="_blank" rel="noopener noreferrer">CodeLens-AI ↗</a>**         | Full-stack repository intelligence copilot that audits codebases, maps AST complexity, and synthesizes dossiers.        | Gemini · React 19 · .NET           |
+| **<a href="https://github.com/shenmareparas/CodeLens-AI" target="_blank" rel="noopener noreferrer">CodeLens-AI ↗</a>**         | Full-stack repository intelligence copilot that audits codebases, maps AST complexity, and synthesises dossiers.        | Gemini · React 19 · .NET           |
 | **<a href="https://github.com/shenmareparas/nexu5-music-bot" target="_blank" rel="noopener noreferrer">nexu5-music-bot ↗</a>** | High-performance Discord music bot featuring low-latency voice streaming, queue management, and rich audio playback.    | Bun · Discord.js · yt-dlp          |
 
 <picture>
